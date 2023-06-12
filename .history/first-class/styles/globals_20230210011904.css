@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#__next {
+	height: 100vh;
+}
+
+.menu-item > .active-link > svg path {
+	stroke: #fff;
+}
+.menu-item > svg path {
+	stroke: #8d8d8d;
+}
+
+.disabled-icon > path,
+.icon-link > svg > path {
+	stroke: #8d8d8d;
+}
+
+@media (prefers-color-scheme: dark) {
+	html {
+		color-scheme: dark;
+	}
+	body {
+		color: white;
+		background: black;
+	}
+}
+

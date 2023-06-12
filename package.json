@@ -1,0 +1,22 @@
+{
+  "name": "first_class",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mui/lab": "^5.0.0-alpha.118",
+    "@mui/material": "^5.11.7",
+    "@tanstack/react-query": "^4.24.4",
+    "@types/next": "^9.0.0",
+    "@types/ws": "^8.5.4",
+    "jest": "^29.4.1",
+    "next": "^13.1.6",
+    "webpack-dev-server": "^4.11.1",
+    "ws": "^8.12.0"
+  }
+}
